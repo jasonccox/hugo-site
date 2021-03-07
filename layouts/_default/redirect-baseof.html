@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta name="robots" content="noindex">
+    <meta http-equiv="refresh" content="0;url={{ .Params.redirect }}">
+    <title>Redirecting to {{ .Params.redirect }}</title>
+    <link rel="canonical" href="{{ .Params.redirect }}">
+  </head>
+  <body>
+    <p>You should be automatically redirected. If you are not, click the link below:</p>
+    <p>
+      <a href="{{ .Params.redirect }}">{{ .Params.redirect }}</a>
+    </p>
+  </body>
+</html>

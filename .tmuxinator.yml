@@ -1,0 +1,9 @@
+# ./.tmuxinator.yml
+
+name: website
+root: ./
+
+windows:
+  - editor: vim
+  - misc: bash
+  - server: hugo server -D

@@ -1,0 +1,279 @@
+/* GENERAL {{{ */
+
+:root {
+    --body-padding-h: 2rem;
+    --font-weight-normal: 400;
+    --font-weight-bold: 600;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    min-width: 20rem;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: var(--font-weight-normal);
+
+    position: relative;
+    max-width: 50rem;
+    min-height: 100%;
+    margin: auto;
+    padding: 5rem var(--body-padding-h) 4rem var(--body-padding-h);
+}
+
+@media only screen and (max-width: 30rem) {
+    body {
+        padding-top: 7rem;
+        padding-bottom: 6rem;
+    }
+}
+
+h1, h2, h3, h4, h5, h6, strong, b {
+    font-weight: var(--font-weight-bold);
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+    border-bottom: dotted blue 1px;
+}
+
+a:hover {
+    color: darkblue;
+    text-decoration: none;
+    border-bottom-color: darkblue;
+    border-bottom-style: solid;
+}
+
+code, pre {
+    background: #f4f4f4;
+}
+
+code {
+    font-family: "Source Code Pro", monospace;
+    border-radius: 0.25rem;
+    padding: 0 0.15rem;
+}
+
+pre {
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+pre code {
+    border-radius: unset;
+    padding: unset;
+}
+
+hr {
+    margin: 3rem auto;
+    width: 25%;
+    border: none;
+    border-top: 1px grey solid;
+}
+
+blockquote {
+    background-color: #eaf2fd;
+    border-left: 0.5rem solid #6c98ce;
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    width: calc(100% - 0.5rem);
+}
+
+blockquote :first-child {
+    margin-top: 0;
+}
+
+blockquote :last-child {
+    margin-bottom: 0;
+}
+
+.block-center {
+    display: block;
+    margin: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.last-updated {
+    font-style: italic;
+    margin-top: 2rem;
+}
+
+/* }}} END GENERAL */
+
+/* HEADER {{{ */
+
+#skip-to-main {
+    display: block;
+    width: 10rem;
+    position: fixed;
+    top: 0.5rem;
+    left: -15rem;
+    z-index: 1;
+    text-align: center;
+    background: #ffffff;
+}
+
+#skip-to-main:focus {
+    left: calc(50% - 5rem);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0.5rem 0;
+    border-bottom: solid grey 1px;
+
+    position: absolute;
+    top: 0;
+    left: var(--body-padding-h);
+    right: var(--body-padding-h);
+}
+
+header nav ul {
+    flex-shrink: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 0.5rem;
+}
+
+header nav ul li:last-of-type {
+    margin-right: 0;
+}
+
+header nav a {
+    color: black;
+    border: none;
+}
+
+header nav a:hover {
+    color: grey;
+    border: none;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+#logo-img {
+    height: 2rem;
+}
+
+#logo-txt {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 0.5rem;
+}
+
+@media only screen and (max-width: 32rem) {
+    header {
+        flex-flow: column;
+    }
+
+    header nav {
+        margin-top: 0.5rem;
+    }
+
+    header nav ul li:last-of-type {
+        margin-right: 0.5rem;
+    }
+}
+
+/* }}} END HEADER */
+
+/* FOOTER {{{ */
+
+footer {
+    color: grey;
+    font-size: 0.8rem;
+    text-align: center;
+
+    position: absolute;
+    bottom: 0;
+    left: var(--body-padding-h);
+    right: var(--body-padding-h);
+    padding: 0.5rem 0;
+
+    border-top: solid grey 1px;
+}
+
+/* }}} END FOOTER */
+
+/* FONTS {{{ */
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url(/fonts/Open_Sans/OpenSans-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url(/fonts/Open_Sans/OpenSans-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    src: url(/fonts/Open_Sans/OpenSans-Italic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 600;
+    src: url(/fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: url(/fonts/Source_Code_Pro/SourceCodePro-Regular.ttf) format('truetype');
+}
+
+/* }}} FONTS */
+
+/* vim: set fdm=marker: */

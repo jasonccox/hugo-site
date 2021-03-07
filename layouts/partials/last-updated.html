@@ -1,0 +1,12 @@
+{{ $date := "" }}
+{{ if .Lastmod }}
+  {{ $date = .Lastmod }}
+{{ else }}
+  {{ $date = .Date }}
+{{ end }}
+
+{{ if $date }}
+<p class="last-updated">
+  [Last updated {{ dateFormat "January 2, 2006" $date }}]
+</p>
+{{ end }}

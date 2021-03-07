@@ -1,0 +1,19 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+
+  <ul>
+    {{ range .Pages }}
+      <li>
+        <p>
+          {{ $link := .RelPermalink }}
+          {{ if isset .Params "redirect" }}
+            {{ $link = .Params.redirect }}
+          {{ end }}
+          <a href="{{ $link  }}">{{ .Title }}</a>:
+          <span>{{ .Summary }}</span>
+        </p>
+      </li>
+    {{ end }}
+  </ul>
+{{ end }}
