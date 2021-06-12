@@ -9,7 +9,9 @@
       {{ end }}
       {{ .Site.Title }}
     </title>
-    <link rel="stylesheet" href="/css/style.css">
+    <style>
+      {{ readFile "/static/css/style.css" | safeCSS }}
+    </style>
     {{ range .AlternativeOutputFormats -}}
       <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .RelPermalink | safeURL }}">
     {{ end -}}
