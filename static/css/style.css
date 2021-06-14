@@ -109,11 +109,11 @@ blockquote {
     width: calc(100% - 0.5rem);
 }
 
-blockquote :first-child {
+blockquote > :first-child {
     margin-top: 0;
 }
 
-blockquote :last-child {
+blockquote > :last-child {
     margin-bottom: 0;
 }
 
@@ -162,8 +162,11 @@ header {
     flex-shrink: 0;
 }
 
-header nav ul {
+header nav {
     flex-shrink: 0;
+}
+
+header nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
