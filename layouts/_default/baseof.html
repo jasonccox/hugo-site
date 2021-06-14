@@ -9,9 +9,15 @@
       {{ end }}
       {{ .Site.Title }}
     </title>
-    <style>
-      {{ readFile "/static/css/style.css" | safeCSS }}
-    </style>
+
+    {{ if eq .Hugo.Environment "dev" }}
+      <link rel="stylesheet" href="/css/style.css" />
+    {{ else }}
+      <style>
+        {{ readFile "/static/css/style.css" | safeCSS }}
+      </style>
+    {{ end }}
+
     {{ range .AlternativeOutputFormats -}}
       <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .RelPermalink | safeURL }}">
     {{ end -}}
