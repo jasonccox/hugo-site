@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Language.Lang }}">
+  <!-- prevent Cloudflare from obfuscating email address -->
+  {{ "<!--email_off-->" | safeHTML }}
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
@@ -11,10 +13,12 @@
     </title>
 
     {{ if eq .Hugo.Environment "dev" }}
-      <link rel="stylesheet" href="/css/style.css" />
+      {{ $style := resources.Get "css/style.css" }}
+      <link rel="stylesheet" href="{{ $style.Permalink }}" />
     {{ else }}
       <style>
-        {{ readFile "/static/css/style.css" | safeCSS }}
+        {{ $style := resources.Get "css/style.css" | resources.Minify }}
+        {{ $style.Content | safeCSS }}
       </style>
     {{ end }}
 
@@ -30,4 +34,5 @@
     </main>
     {{ partial "footer.html" . }}
   </body>
+  {{ "<!--/email_off-->" | safeHTML }}
 </html>
