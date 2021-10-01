@@ -1,6 +1,7 @@
 ---
 title: Resume
 lastmod: 2021-03-04
+no_rss: true
 ---
 
 I'm a recent computer science graduate with several years of software engineering experience. I'm known for my ability to **learn quickly**, **work independently**, and **get the details right**. If you'd like to work with me, [get in touch](mailto:hi@jasoncarloscox.com).
