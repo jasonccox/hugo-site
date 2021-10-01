@@ -12,7 +12,7 @@
       {{ .Site.Title }}
     </title>
 
-    {{ if eq .Hugo.Environment "dev" }}
+    {{ if eq hugo.Environment "dev" }}
       {{ $style := resources.Get "css/style.css" }}
       <link rel="stylesheet" href="{{ $style.Permalink }}" />
     {{ else }}
