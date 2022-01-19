@@ -19,6 +19,7 @@ html {
 body {
     font-family: var(--font-family-sans-serif);
     font-weight: var(--font-weight-normal);
+    line-height: 1.4;
 
     display: flex;
     flex-flow: column nowrap;
@@ -94,6 +95,7 @@ code {
 pre {
     border-radius: 0.5rem;
     padding: 0.5rem;
+    overflow: auto;
 }
 
 pre code {
