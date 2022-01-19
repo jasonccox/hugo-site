@@ -2,5 +2,8 @@ baseURL: https://jasoncarloscox.com/
 languageCode: en-us
 title:  Jason Cox
 markup:
+  goldmark:
+    renderer:
+      unsafe: true
   highlight:
     codeFences: false

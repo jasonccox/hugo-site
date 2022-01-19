@@ -21,7 +21,9 @@ The Plasma desktop environment is insanely configurable (that's why I love it!),
 7. Click *Apply*
 8. Repeat steps 3-7 for the remaining shortcuts, substituting `Down`, `Left`, and `Right` for `Up` in step 6.
 
-> If you want to use `Shift` + modifier + `i`/`j`/`k`/`l` (or some other key combo) as Home, End, Page Up, and Page Down, the action names for those are `Home`, `End`, `PgUp`, and `PgDown`, respectively.
+{{% aside %}}
+If you want to use `Shift` + modifier + `i`/`j`/`k`/`l` (or some other key combo) as Home, End, Page Up, and Page Down, the action names for those are `Home`, `End`, `PgUp`, and `PgDown`, respectively.
+{{% /aside %}}
 
 ## MacOS
 
@@ -30,7 +32,10 @@ Unfortunately MacOS isn't all that configurable without some help from third-par
 1. Open Karabiner Elements
 3. Under the *Complex Modifications* tab, click *Add rule* and import a rule from the Internet
 4. On the website, find the rule called "Change Modifier key + i/j/k/l to arrow keys" and import it
-    > I use the Colemak keyboard layout, so I was actually looking to use `u`/`n`/`e`/`l` as my arrow keys, but this still worked. It must somehow get the original key code.
 5. Enable the rule called "Change Alt + i/j/k/l to Arrows" (or whichever modifier you prefer).
+
+{{% aside %}}
+I use the Colemak keyboard layout, so I was actually looking to use `u`/`n`/`e`/`l` as my arrow keys, but this still worked. It must somehow get the original key code.
+{{% /aside %}}
 
 MacOS automatically sets `ctrl` + arrows to Home, End, Page Up, and Page Down, so `ctrl` + *modifier* + `i`/`j`/`k`/`l` should work for those now. 

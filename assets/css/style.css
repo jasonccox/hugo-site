@@ -108,6 +108,31 @@ hr {
     border-top: 1px grey solid;
 }
 
+aside {
+    color: #333333;
+    position: relative;
+    padding: 0.375rem 1rem;
+}
+
+aside:before, aside:after {
+    border: 0.125rem solid #aaaaaa;
+    content: " ";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 0.5rem;
+}
+
+aside:before {
+    border-right: none;
+    left: 0.25rem;
+}
+
+aside:after {
+    border-left: none;
+    right: 0.25rem;
+}
+
 blockquote {
     background-color: #eaf2fd;
     border-left: 0.5rem solid #6c98ce;
@@ -116,11 +141,11 @@ blockquote {
     width: calc(100% - 0.5rem);
 }
 
-blockquote > :first-child {
+aside > :first-child, blockquote > :first-child {
     margin-top: 0;
 }
 
-blockquote > :last-child {
+aside > :last-child, blockquote > :last-child {
     margin-bottom: 0;
 }
 

@@ -21,7 +21,9 @@ void add(const T& value) {
 };
 ```
 
-> If you want to actually compile and run this example, you'll need the `LinkedList.h` (which contains the `add` method) and `Node.h` files from [this repo](https://github.com/jasonccox/cpp-linked-list?target=_blank).
+{{% aside %}}
+If you want to actually compile and run this example, you'll need the `LinkedList.h` (which contains the `add` method) and `Node.h` files from [this repo](https://github.com/jasonccox/cpp-linked-list?target=_blank).
+{{% /aside %}}
 
 The `add` method is fairly simple and needs two basic tests: calling `add` on an empty list, and calling `add` on a non-empty list. Let's take a look at how to write those tests with Catch2.
 
@@ -53,7 +55,9 @@ with expansion:
 
 `REQUIRE` statements are the key piece of creating tests, but Catch2 also provides several other macros to structure the tests. The `SCENARIO` macro provides a top-level description of a test case. The `GIVEN` macro allows you to set up the conditions needed for the test, and the `WHEN` macro is used to execute the code under test. Finally, the `THEN` macro typically contains one or more `REQUIRE` statements to assert that everything went as planned.
 
-> Catch2 provides more generic `TEST_CASE` and `SECTION` macros if that's what you prefer. Read more about any of the macros [here](https://github.com/catchorg/Catch2/blob/master/docs/test-cases-and-sections.md?target=_blank#top).
+{{% aside %}}
+Catch2 provides more generic `TEST_CASE` and `SECTION` macros if that's what you prefer. Read more about any of the macros [here](https://github.com/catchorg/Catch2/blob/master/docs/test-cases-and-sections.md?target=_blank#top).
+{{% /aside %}}
 
 The following example file for testing our `add` method should make things a bit clearer:
 ```cpp
@@ -89,7 +93,9 @@ Scenario: elements can be added to the end of a LinkedList
      Then: the length increases by 1
 ```
 
-> Wondering about the `"[linkedlist]"` argument to the `SCENARIO` macro? It's a tag. Tags allow you to group test cases and specify which ones to run. Read more [here](https://github.com/catchorg/Catch2/blob/master/docs/test-cases-and-sections.md?target=_blank#tags).
+{{% aside %}}
+Wondering about the `"[linkedlist]"` argument to the `SCENARIO` macro? It's a tag. Tags allow you to group test cases and specify which ones to run. Read more [here](https://github.com/catchorg/Catch2/blob/master/docs/test-cases-and-sections.md?target=_blank#tags).
+{{% /aside %}}
 
 At this point we've tested the `add` method on an empty list. Now we just need to test it on a non-empty list. We can do so by adding another `GIVEN` block inside our `SCENARIO` block:
 ```cpp
@@ -209,6 +215,8 @@ If you want to see exactly which lines of a file were covered, open the correspo
 14:   71:    };
 ```
 
-> You may notice that many lines that appear to be executable are marked with a `-` in `LinkedList.h.gcov` (such as the entire `remove` method). That's because Gcov is claiming that after linking the binary, there was no chance of executing them (for example, because the method they're in never got called in the tests). There's a [Stack Overflow post](https://stackoverflow.com/questions/24321099/why-does-gcov-report-in-class-function-definitions-as-not-executable?target=_blank) with a bit more info if you want to check it out.
+{{% aside %}}
+You may notice that many lines that appear to be executable are marked with a `-` in `LinkedList.h.gcov` (such as the entire `remove` method). That's because Gcov is claiming that after linking the binary, there was no chance of executing them (for example, because the method they're in never got called in the tests). There's a [Stack Overflow post](https://stackoverflow.com/questions/24321099/why-does-gcov-report-in-class-function-definitions-as-not-executable?target=_blank) with a bit more info if you want to check it out.
+{{% /aside %}}
 
 Well, that's it! This is just a basic example of [Catch2](https://github.com/catchorg/Catch2?target=_blank) and [Gcov](https://gcc.gnu.org/onlinedocs/gcc/Gcov.html?target=_blank) -- both are powerful tools capable of much more than I've shown here, but hopefully this is enough to help you get started.
