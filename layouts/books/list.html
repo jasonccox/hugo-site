@@ -1,0 +1,19 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+
+  <ul>
+    {{ range sort .Pages "Params.book_complete_date" "desc" }}
+      <li>
+        <p>
+          <a href="{{ .RelPermalink }}">
+            <cite>{{ .Title }}</cite>
+            by {{ .Params.book_author }}
+          </a>
+          ({{ dateFormat "Jan 2006" .Params.book_complete_date }}):
+          <span>{{ .Content | replaceRE "</?p>" "" | safeHTML }}</span>
+        </p>
+      </li>
+    {{ end }}
+  </ul>
+{{ end }}

@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <h1>
+    <cite>{{ .Title }}</cite>
+    by {{ .Params.book_author }}
+  </h1>
+  <p class="text-center">
+    Read {{ dateFormat "January 2006" .Params.book_complete_date }}
+  </p>
+  {{ .Content }}
+  {{ partial "last-updated.html" . }}
+{{ end }}

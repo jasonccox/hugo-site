@@ -12,6 +12,8 @@ Here's the general layout of the site:
 
 - [Creations](/creations): A list of things I've built (often software, but not always)
 
+- [Books](/books): Books I've read lately and my (brief) thoughts about them
+
 - [Blog](/blog): Stories, how-tos, and my thoughts on various topics
 
 - [Resume](/resume): A summary of my professional and academic accomplishments
