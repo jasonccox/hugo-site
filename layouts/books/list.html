@@ -11,7 +11,10 @@
             by {{ .Params.book_author }}
           </a>
           ({{ dateFormat "Jan 2006" .Params.book_complete_date }}):
-          <span>{{ .Content | replaceRE "</?p>" "" | safeHTML }}</span>
+          <span>{{ .Summary | replaceRE "</?p>" "" | safeHTML }}</span>
+          {{ if not (eq .Content .Summary) }}
+            <span>[...]</span>
+          {{ end }}
         </p>
       </li>
     {{ end }}
