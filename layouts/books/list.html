@@ -2,9 +2,9 @@
   <h1>{{ .Title }}</h1>
   {{ .Content }}
 
-  <ul>
+  <ul class="book-list">
     {{ range sort .Pages "Params.book_complete_date" "desc" }}
-      <li>
+      <li {{ with .Params.book_review }} class="book-{{ . }}" {{ end }}>
         <p>
           <a href="{{ .RelPermalink }}">
             <cite>{{ .Title }}</cite>

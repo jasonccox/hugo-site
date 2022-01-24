@@ -2,6 +2,7 @@
 title: Little Women
 book_author: Louisa May Alcott
 book_complete_date: 2022-01-18
+book_review: good
 date: 2022-01-19
 ---
 
