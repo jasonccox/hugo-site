@@ -1,6 +1,6 @@
 ---
 title: Resume
-lastmod: 2021-03-04
+lastmod: 2022-01-26
 no_rss: true
 ---
 
@@ -10,12 +10,14 @@ I'm a recent computer science graduate with several years of software engineerin
 
 ## Work Experience
 
-**Software Engineer** ([Qualtrics](https://qualtrics.com), Mar 2019 - present)
+**Software Engineer II** ([Qualtrics](https://qualtrics.com), Oct 2021 - present)<br />
+**Software Engineer I** ([Qualtrics](https://qualtrics.com), Jan - Oct 2021)<br />
+**Part-time Software Engineer** ([Qualtrics](https://qualtrics.com), Mar 2019 - Dec 2020)
 
-- Led team initiative that eliminated external non-TLS HTTP access to web services
+- Led team initiatives to design/create survey components, strengthen platform security, and improve testing systems
+- Prevented frontend regressions by creating a visual testing framework in Cypress
+- Developed accessible, responsive survey-taking web app with React and TypeScript
 - Increased service scalability by automating infrastructure creation with Terraform and AWS
-- Collaborated with team members to plan and develop APIs for external platform integration
-- Developed survey-taking apps for the web, desktop, and mobile
 
 **Research Assistant** ([BYU Internet Security Research Lab](https://isrl.byu.edu), Jul - Aug 2020)
 
@@ -41,13 +43,15 @@ I'm a recent computer science graduate with several years of software engineerin
 
 **Computer Languages**: JavaScript, TypeScript, Go, Python, C, Java, C++, HTML, CSS
 
-**Systems/Technologies**: Linux, Docker, AWS
+**Systems/Technologies**: Linux, Docker, Node.js, React.js, Terraform, AWS
 
 **Human Languages**: English (native), Spanish (fluent)
 
 ---
 
 ## Personal Projects
+
+[**git-personal**](https://github.com/jasonccox/git-personal): Docker image for a single-user Git server with support for mirroring to other Git servers
 
 [**Home Server**](/projects/home-server.html): Self-hosted cloud services using Docker and ZFS on Debian Linux
 
