@@ -1,5 +1,5 @@
 ---
-title: Just for Fun
+title: 'Just for Fun: The Story of an Accidental Revolutionary'
 book_author: Linus Torvalds and David Diamond
 book_complete_date: 2022-01-24
 book_review: good
