@@ -1,6 +1,6 @@
 baseURL: https://jasoncarloscox.com/
 languageCode: en-us
-title:  Jason Cox
+title:  jasoncarloscox.com
 markup:
   goldmark:
     renderer:
