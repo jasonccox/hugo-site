@@ -2,7 +2,7 @@
 title: Setting Up ZFS on a ROCKPro64 Running Debian Buster
 date: 2020-06-25
 lastmod: 2021-01-20
-summary: I bought a ROCKPro64 single-board computer that to use as a home server. Once it arrived, I quickly discovered that setting up ZFS on it was going to be a bit tricky. After a few hours of troubleshooting, I finally figured it out – here’s how to get it working.
+summary: I bought a ROCKPro64 single-board computer to use as a home server. Once it arrived, I quickly discovered that setting up ZFS on it was going to be a bit tricky. After a few hours of troubleshooting, I finally figured it out – here’s how to get it working.
 ---
 
 **Update: Although the method described below does work, I eventually switched to [Armbian's Ubuntu 20.04 server image](https://www.armbian.com/rockpro64/), and the ZFS DKMS module works there without any extra hacking.**
