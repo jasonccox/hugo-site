@@ -1,6 +1,7 @@
 baseURL: https://jasoncarloscox.com/
 languageCode: en-us
 title:  jasoncarloscox.com
+copyright: 'Content licensed [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)'
 markup:
   goldmark:
     renderer:
