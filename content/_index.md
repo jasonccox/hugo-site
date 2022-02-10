@@ -20,7 +20,7 @@ Here's the general layout of the site:
 
 ## Staying Updated
 
-The best way to stay up-to-date with what I share on this site is to subscribe to the [RSS feed](/index.xml). If you're not sure how to do that, check out Wikipedia's large [list of RSS reader applications](https://en.wikipedia.org/wiki/Comparison_of_feed_aggregators) (although it's missing my personal favorite, [newsboat](https://newsboat.org/)).
+The site has an [RSS feed](/index.xml), or you can [email me](mailto:hi@jasoncarloscox.com?subject=I%20want%20to%20subscribe!) and ask to subscribe. See the [Subscribe](/subscribe) page for more details.
 
 ## Getting in Touch
 
