@@ -25,10 +25,10 @@ The server has two 1 TB hard drives, which act as mirrors under the ZFS file sys
 
 ## Hardware
 
-The server is a [Pine64 ROCKPro64](https://www.pine64.org/rockpro64/) in a [NAS case](https://pine64.com/product/rockpro64-metal-desktop-nas-casing/). It has [Pine64's largest heat sink](https://pine64.com/product/rockpro64-30mm-tall-profile-heatsink/) and a [fan](https://pine64.com/product/fan-for-rockpro64-metal-desktop-nas-casing/) for active cooling. Two 1TB Western Digital Red hard drives are connected via a [PCI-E to SATA adapter](https://pine64.com/product/rockpro64-pci-e-to-dual-sata-ii-interface-card/).
+The server is a [Pine64 ROCKPro64](https://www.pine64.org/rockpro64/) in a [NAS case](https://pine64.com/product/rockpro64-metal-desktop-nas-casing/). It has [Pine64's largest heat sink](https://pine64.com/product/rockpro64-30mm-tall-profile-heatsink/) and a [fan](https://pine64.com/product/fan-for-rockpro64-metal-desktop-nas-casing/) for active cooling. Two 1TB Western Digital Red hard drives are connected via a [PCI-E to SATA adapter](https://pine64.com/product/pcie-to-dual-sata-iii-interface-card/).
 
 ## Tweaks
 
-- Armbian's Ubuntu image is great and for the most part just works -- even with the ZFS DKMS module. However, it's missing any sort of fan control, so I had to figure that out myself with the help of [ATS](https://github.com/tuxd3v/ats) and [this forum post](https://forum.armbian.com/topic/12936-how-to-control-fan-on-rockpro64/). It was a bit complicated for me, so I wrote a [blog post](/blog/rockpro64-fan-control.html) with the exact details.
+- Armbian's Ubuntu image is great and for the most part just works -- even with the ZFS DKMS module. However, it's missing any sort of fan control, so I had to figure that out myself with the help of [ATS](https://github.com/tuxd3v/ats) and [this forum post](https://forum.armbian.com/topic/12936-how-to-control-fan-on-rockpro64/). It was a bit complicated for me, so I wrote a [blog post](/blog/rockpro64-fan-control) with the exact details.
 
 - By default, `systemd-resolved` is running on port 53 on Ubuntu. Since I'm using Pi-hole as my DNS server, I need it to be on port 53 instead. [This article](https://www.linuxuprising.com/2020/07/ubuntu-how-to-free-up-port-53-used-by.html) explains how to stop `systemd-resolved` from using port 53.

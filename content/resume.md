@@ -53,7 +53,7 @@ I'm a recent computer science graduate with several years of software engineerin
 
 [**git-personal**](https://github.com/jasonccox/git-personal): Docker image for a single-user Git server with support for mirroring to other Git servers
 
-[**Home Server**](/projects/home-server.html): Self-hosted cloud services using Docker and ZFS on Debian Linux
+[**Home Server**](/creations/home-server): Self-hosted cloud services using Docker and ZFS on Debian Linux
 
 [**Webfolio**](https://github.com/jasonccox/grav-theme-webfolio): Theme for [Grav CMS](https://getgrav.org) built with HTML, CSS, JavaScript, Sass, and Twig
 

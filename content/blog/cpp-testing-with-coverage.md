@@ -29,7 +29,7 @@ The `add` method is fairly simple and needs two basic tests: calling `add` on an
 
 ## Setting up Catch2
 
-First we need to set up Catch2. The easiest way to get it is by downloading the [single header file version](https://raw.githubusercontent.com/catchorg/Catch2/master/single_include/catch2/catch.hpp?target=_blank). Then you'll need to create a `.cpp` file containing the following code:
+First we need to set up Catch2. The easiest way to get it is by downloading the [single header file version](https://raw.githubusercontent.com/catchorg/Catch2/Catch1.x/single_include/catch.hpp). Then you'll need to create a `.cpp` file containing the following code:
 
 ```cpp
 #define CATCH_CONFIG_MAIN

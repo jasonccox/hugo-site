@@ -8,7 +8,7 @@ summary: Armbian’s Ubuntu 20.04 server image for the ROCKPro64 works great –
 When my old desktop PC that was acting as a home server failed on me recently, I switched back to using my [ROCKPro64](https://www.pine64.org/rockpro64/) for the job. Previously I'd used it with [ayufan's Debian Buster image](https://github.com/ayufan-rock64/linux-build/releases/tag/0.9.14), but this time I decided to try out [Armbian's Ubuntu 20.04 server image](https://www.armbian.com/rockpro64/) based on the 5.9 Linux kernel. Everything went beautifully -- even installing the ZFS DKMS module -- except that there doesn't seem to be any built-in fan control.
 
 {{% aside %}}
-Check out the [dedicated page about my home server](/creations/home-server.html) if you're interested in more of the details of how it's set up!
+Check out the [dedicated page about my home server](/creations/home-server) if you're interested in more of the details of how it's set up!
 {{% /aside %}}
 
 Thankfully, [this forum post](https://forum.armbian.com/topic/12936-how-to-control-fan-on-rockpro64/) had all the information I needed to eventually get [ATS](https://github.com/tuxd3v/ats) working. However, it took some digging and experimentation, so I've documented the process below. (All of these commands should be run as root.)
