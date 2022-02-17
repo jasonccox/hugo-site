@@ -94,13 +94,14 @@ code {
 
 pre {
     border-radius: 0.5rem;
-    padding: 0.5rem;
-    overflow: auto;
+    padding-inline: 0.5rem;
 }
 
 pre code {
     border-radius: unset;
-    padding: unset;
+    display: block;
+    overflow: auto;
+    padding: 0.5rem 0;
 }
 
 hr {
