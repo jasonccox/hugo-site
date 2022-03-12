@@ -1,6 +1,7 @@
 ---
 title: Kyria
 date: 2022-03-01
+lastmod: 2022-03-11
 summary: A custom, split, ergonomic, tiny, mechanical keyboard that I built from a kit.
 ---
 
@@ -22,7 +23,7 @@ The build process was fun! Soldering turned out to be pretty easy, at least for 
 I did order rev2.0 of the PCB, and before it shipped the folks at splitkb.com let me know that they had made a few mistakes, including making the solder pads for the LEDs too small, in that revision. They gave me the option to wait for rev2.1 instead, but I opted to take my chances rather than wait an extra month and a half to get the kit. So the LED issues are sort of on me and my lack of patience.
 {{% /aside %}}
 
-My only real gripe with the whole kit is that the [acrylic plate case](https://splitkb.com/collections/cases-and-plates/products/kyria-acrylic-plate-case) I bought doesn't entirely secure the PCB. The case has spacers that go through holes in the PCB, but the PCB isn't actually attached to the spacers, so it can move vertically within the case and bump into both the top and bottom plates. I suspect that this movement is part of the reason the LED connections keep going out on me (the other part being my poor soldering skills). I'm planning to put some washers around the spacers to force the PCB to stay put vertically, though.
+My only real gripe with the whole kit is that the [acrylic plate case](https://splitkb.com/collections/cases-and-plates/products/kyria-acrylic-plate-case) I bought doesn't entirely secure the PCB. The case has spacers that go through holes in the PCB, but the PCB isn't actually attached to the spacers, so it can move vertically within the case and bump into both the top and bottom plates. I suspect that this movement is part of the reason the LED connections keep going out on me (the other part being my poor soldering skills). I've since put some washers around the spacers (four M4x8 washers on each side of each spacer) to force the PCB to stay put vertically, though, and it feels much more solid.
 
 ![a side view of the keyboard showing how the PCB fits between the plates of the case](/images/kyria/side-no-switches.jpg)
 
