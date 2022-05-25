@@ -1,6 +1,7 @@
 ---
 title: Vertical Stand and Case for Kyria
 date: 2022-04-27
+lastmod: 2022-05-24
 summary: A stand for my Kyria keyboard that allows me to use it tented 90° and is also a case.
 ---
 
@@ -18,6 +19,8 @@ My contraption worked well for keeping the keyboard vertical, but the bottom of 
 
 ![part of a mouse pad taped to the bottom of the box kept it from slipping on the desk](/images/kyria-stand/bottom.jpg)
 
-With everything ready, I started using my vertical keyboard. Everything worked as intended, except for one small detail -- it wasn't comfortable! I tried moving things around for quite a while and eventually concluded that with my hands turned vertically, my thumbs did not like having their keys on the same plane as the finger keys. Along the way I also discovered that having the keys at a different height/depth for each finger would be more comfortable. Basically I realized that what I wanted was something like the [Dactyl ManuForm keyboard](https://github.com/abstracthat/dactyl-manuform). Maybe someday I'll build one...
+With everything ready, I started using my vertical keyboard. ~~Everything worked as intended, except for one small detail -- it wasn't comfortable! I tried moving things around for quite a while and eventually concluded that with my hands turned vertically, my thumbs did not like having their keys on the same plane as the finger keys. Along the way I also discovered that having the keys at a different height/depth for each finger would be more comfortable. Basically I realized that what I wanted was something like the [Dactyl ManuForm keyboard](https://github.com/abstracthat/dactyl-manuform). Maybe someday I'll build one...~~
 
-I won't be using my new creation much, but it was fun to build nevertheless. On to the next project!
+~~I won't be using my new creation much, but it was fun to build nevertheless. On to the next project!~~
+
+A few weeks later, I've given this whole contraption another shot, and I'm liking it this time around! I'm not really sure what changed 🤷 I still think a ManuForm-style keyboard would be even better, but for now my makeshift vertical Kyria is working pretty well.
