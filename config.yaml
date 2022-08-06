@@ -9,3 +9,9 @@ markup:
   highlight:
     codeFences: true
     noClasses: false
+
+minify:
+  minifyOutput: true
+  tdewolff:
+    html:
+      keepComments: true # to preserve email_off comments
