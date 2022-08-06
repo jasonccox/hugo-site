@@ -5,6 +5,9 @@
   </h1>
   <p class="text-center">
     Read {{ dateFormat "January 2006" .Params.book_complete_date }}
+    {{ if .Params.book_incomplete }}
+      (incomplete)
+    {{ end }}
   </p>
   {{ .Content }}
   {{ partial "last-updated.html" . }}

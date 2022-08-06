@@ -4,13 +4,20 @@
 
   <ul class="book-list">
     {{ range sort .Pages "Params.book_complete_date" "desc" }}
+      {{ $date := dateFormat "Jan 2006" .Params.book_complete_date }}
+
+      {{ $completion := "" }}
+      {{ if .Params.book_incomplete }}
+        {{ $completion = ", incomplete" }}
+      {{ end}}
+
       <li {{ with .Params.book_review }} class="book-{{ . }}" {{ end }}>
         <p>
           <a href="{{ .RelPermalink }}">
             <cite>{{ .Title }}</cite>
             by {{ .Params.book_author }}
           </a>
-          ({{ dateFormat "Jan 2006" .Params.book_complete_date }}):
+          ({{ $date }}{{ $completion }}):
           <span>{{ .Summary | replaceRE "</?p>" "" | safeHTML }}</span>
           {{ if not (eq .Content .Summary) }}
             <span>[...]</span>
