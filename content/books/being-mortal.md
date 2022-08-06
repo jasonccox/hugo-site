@@ -2,7 +2,7 @@
 title: Being Mortal
 book_author: Atul Gawande
 book_complete_date: 2022-07-16
-book_review: good
+book_review: great
 date: 2022-07-17
 ---
 
