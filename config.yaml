@@ -8,4 +8,4 @@ markup:
       unsafe: true
   highlight:
     codeFences: true
-    style: friendly
+    noClasses: false

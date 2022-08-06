@@ -13,13 +13,18 @@
     </title>
 
     {{ if eq hugo.Environment "dev" }}
-      {{ $style := resources.Get "css/style.css" }}
-      <link rel="stylesheet" href="{{ $style.Permalink }}" />
+      {{ $base_style := resources.Get "css/style.css" }}
+      <link rel="stylesheet" href="{{ $base_style.Permalink }}" />
     {{ else }}
       <style>
-        {{ $style := resources.Get "css/style.css" | resources.Minify }}
-        {{ $style.Content | safeCSS }}
+        {{ $base_style := resources.Get "css/style.css" | resources.Minify }}
+        {{ $base_style.Content | safeCSS }}
       </style>
+    {{ end }}
+
+    {{ if in .Content "class=\"chroma\"" }}
+      {{ $highlight_style := resources.Get "css/highlight.css" | minify }}
+      <link rel="stylesheet" href="{{ $highlight_style.Permalink }}" />
     {{ end }}
 
     {{ range .AlternativeOutputFormats -}}
