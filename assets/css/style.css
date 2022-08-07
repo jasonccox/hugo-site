@@ -251,7 +251,7 @@ header nav ul {
 }
 
 header nav ul li {
-    margin: 0 0.5rem;
+    margin: 1rem 0.5rem;
 }
 
 header nav ul li:last-of-type {
