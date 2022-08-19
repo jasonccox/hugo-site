@@ -4,20 +4,35 @@ lastmod: 2022-01-26
 no_rss: true
 ---
 
-I'm a recent computer science graduate with several years of software engineering experience. I'm known for my ability to **learn quickly**, **work independently**, and **get the details right**. If you'd like to work with me, [get in touch](mailto:hi@jasoncarloscox.com).
+I'm a computer science Ph.D. student with several years of software engineering experience. I'm known for my ability to **learn quickly**, **work independently**, and **get the details right**. If you'd like to work with me, [get in touch](mailto:hi@jasoncarloscox.com).
+
+---
+
+## Education
+
+**Ph.D. in Computer Sciense** ([Georgia Institute of Technology](https://gatech.edu), anticipated May 2027)
+
+**B.S. in Computer Science; Minor in Business** ([Brigham Young University](https://byu.edu), Dec 2020)
+
+- GPA: 4.0 / 4.0
 
 ---
 
 ## Work Experience
 
-**Software Engineer II** ([Qualtrics](https://qualtrics.com), Oct 2021 - present)<br />
+**Software Engineer II** ([Qualtrics](https://qualtrics.com), Oct 2021 - Aug 2022)<br />
 **Software Engineer I** ([Qualtrics](https://qualtrics.com), Jan - Oct 2021)<br />
 **Part-time Software Engineer** ([Qualtrics](https://qualtrics.com), Mar 2019 - Dec 2020)
 
-- Led team initiatives to design/create survey components, strengthen platform security, and improve testing systems
+- Led team initiatives to design/create survey components ahead of schedule
+- Mentored engineering intern in software development and collaboration skills
+- Reduced load-induced outages by decreasing required API calls by up to 80%
+- Implemented complex React features from scratch, such as a drag-and-drop list and an auto-complete search box
 - Prevented frontend regressions by creating a visual testing framework in Cypress
-- Developed accessible, responsive survey-taking web app with React and TypeScript
+- Provided insight into future development priorities by collecting and analyzing usage metrics
+- Improved platform security by enforcing strict TLS and implementing virus scanning
 - Increased service scalability by automating infrastructure creation with Terraform and AWS
+- Consistently recognized for high throughput and dedication to high-quality code design
 
 **Research Assistant** ([BYU Internet Security Research Lab](https://isrl.byu.edu), Jul - Aug 2020)
 
@@ -31,19 +46,11 @@ I'm a recent computer science graduate with several years of software engineerin
 
 ---
 
-## Education
-
-**B.S. in Computer Science; Minor in Business** ([Brigham Young University](https://byu.edu), Dec 2020)
-
-- GPA: 4.0 / 4.0
-
----
-
 ## Skills
 
 **Computer Languages**: JavaScript, TypeScript, Go, Python, C, Java, C++, HTML, CSS
 
-**Systems/Technologies**: Linux, Docker, Node.js, React.js, Terraform, AWS
+**Systems/Technologies**: Linux, Docker, Node.js, React.js, Cypress, Terraform, AWS
 
 **Human Languages**: English (native), Spanish (fluent)
 
