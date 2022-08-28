@@ -102,6 +102,7 @@ h4 {
 
 a {
     color: var(--color-link);
+    transition: color 0.25s;
     text-decoration: none;
     border-bottom: dotted var(--color-link) 1px;
 }
