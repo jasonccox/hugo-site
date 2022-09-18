@@ -4,7 +4,7 @@ title: Home
 
 # Hi, I'm Jason!
 
-I'm a computer science Ph.D. student, software engineer, keyboard nerd, aspiring small business owner, and open source enthusiast. I don't care much for social media, so I've created this site instead as a place to share things with the world.
+I'm a computer science Ph.D. student, software engineer, keyboard nerd, aspiring small business owner, and open source enthusiast. Welcome to my personal website!
 
 ## Site Overview
 
