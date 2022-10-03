@@ -10,11 +10,11 @@ I'm a computer science Ph.D. student, software engineer, keyboard nerd, aspiring
 
 Here's the general layout of the site:
 
-- [Creations](/creations): A list of things I've built (often software, but not always)
+- [Blog](/blog): Stories, how-tos, and my thoughts on various topics
 
 - [Books](/books): Books I've read lately and my (brief) thoughts about them
 
-- [Blog](/blog): Stories, how-tos, and my thoughts on various topics
+- [Creations](/creations): A list of things I've built (often software, but not always)
 
 - [Research](/research): Details about my research
 
