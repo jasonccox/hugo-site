@@ -18,7 +18,7 @@ Here's the general layout of the site:
 
 - [Research](/research): Details about my research
 
-- [Resume](/resume): A summary of my professional and academic accomplishments
+- [CV](/cv): A summary of my academic and professional accomplishments
 
 ## Staying Updated
 

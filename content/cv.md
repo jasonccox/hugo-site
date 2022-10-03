@@ -1,7 +1,9 @@
 ---
-title: Resume
-lastmod: 2022-01-26
+title: Curriculum Vitae
+lastmod: 2022-10-03
 no_rss: true
+aliases:
+    - /resume
 ---
 
 I'm a computer science Ph.D. student with several years of software engineering experience. I'm known for my ability to **learn quickly**, **work independently**, and **get the details right**. If you'd like to work with me, [get in touch](mailto:hi@jasoncarloscox.com).
@@ -56,18 +58,6 @@ I'm a computer science Ph.D. student with several years of software engineering 
 
 ---
 
-## Personal Projects
-
-[**git-personal**](https://github.com/jasonccox/git-personal): Docker image for a single-user Git server with support for mirroring to other Git servers
-
-[**Home Server**](/creations/home-server): Self-hosted cloud services using Docker and ZFS on Debian Linux
-
-[**Webfolio**](https://github.com/jasonccox/grav-theme-webfolio): Theme for [Grav CMS](https://getgrav.org) built with HTML, CSS, JavaScript, Sass, and Twig
-
-[**jsonbody**](https://github.com/jasonccox/jsonbody): Golang middleware for receiving, validating, and sending JSON
-
----
-
 ## Awards & Honors
 
 **Brigham Young Scholarship** (1 semester, full tuition, 2020)
@@ -87,3 +77,15 @@ I'm a computer science Ph.D. student with several years of software engineering 
 **Medical Interpreter & Administrative Assistant** ([Community Health Connect](https://utahchc.org), Jun 2017 - Mar 2018)
 
 **Volunteer Representative** ([The Church of Jesus Christ of Latter-day Saints](https://churchofjesuschrist.org), Feb 2014 - Jan 2016)
+
+---
+
+## Personal Projects
+
+[**git-personal**](https://github.com/jasonccox/git-personal): Docker image for a single-user Git server with support for mirroring to other Git servers
+
+[**Home Server**](/creations/home-server): Self-hosted cloud services using Docker and ZFS on Debian Linux
+
+[**Webfolio**](https://github.com/jasonccox/grav-theme-webfolio): Theme for [Grav CMS](https://getgrav.org) built with HTML, CSS, JavaScript, Sass, and Twig
+
+[**jsonbody**](https://github.com/jasonccox/jsonbody): Golang middleware for receiving, validating, and sending JSON
