@@ -26,6 +26,11 @@
         </a>
       </li>
       <li>
+        <a href="/research" {{ if eq .Type "research" }} class="active" {{ end }}>
+          Research
+        </a>
+      </li>
+      <li>
         <a href="/resume" {{ if eq .RelPermalink "/resume/" }} class="active" {{ end }}>
           Resume
         </a>

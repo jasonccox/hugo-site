@@ -16,6 +16,8 @@ Here's the general layout of the site:
 
 - [Blog](/blog): Stories, how-tos, and my thoughts on various topics
 
+- [Research](/research): Details about my research
+
 - [Resume](/resume): A summary of my professional and academic accomplishments
 
 ## Staying Updated

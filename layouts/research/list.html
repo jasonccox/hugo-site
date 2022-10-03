@@ -1,0 +1,38 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+
+  {{ $current_projects := where .Pages "Params.project_end_date" "==" nil }}
+  {{ $past_projects := where .Pages "Params.project_end_date" "!=" nil }}
+  {{
+     with (
+        sort $current_projects "Params.project_start_date" "desc"
+        | append (
+          sort $past_projects "Params.project_end_date" "desc"
+        )
+     )
+  }}
+    <h2>Projects</h2>
+    <ul class="research-project-list">
+      {{ range . }}
+        {{ $start_date := dateFormat "Jan 2006" .Params.project_start_date }}
+        {{ $end_date := "Present" }}
+        {{ if .Params.project_end_date }}
+          {{ $end_date = dateFormat "Jan 2006" .Params.project_end_date }}
+        {{ end }}
+
+        <li>
+          <p>
+            {{ if not (eq .Content .Summary) }}
+              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            {{ else }}
+              <strong>{{ .Title }}</strong>
+            {{ end }}
+            ({{ $start_date }} - {{ $end_date }}):
+            <span>{{ .Summary | replaceRE "</?p>" "" | safeHTML }}</span>
+          </p>
+        </li>
+      {{ end }}
+    </ul>
+  {{ end }}
+{{ end }}
