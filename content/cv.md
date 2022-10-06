@@ -1,12 +1,12 @@
 ---
 title: Curriculum Vitae
-lastmod: 2022-10-03
+lastmod: 2022-10-06
 no_rss: true
 aliases:
     - /resume
 ---
 
-I'm a computer science Ph.D. student with several years of software engineering experience. I'm known for my ability to **learn quickly**, **work independently**, and **get the details right**. If you'd like to work with me, [get in touch](mailto:hi@jasoncarloscox.com).
+I'm a computer science Ph.D. student working on problems in **computer networking** and **computing for social good**. I have several years of software engineering experience, and I'm known for my ability to learn quickly, work independently, and get the details right. If you'd like to work with me, [get in touch](mailto:hi@jasoncarloscox.com).
 
 ---
 
