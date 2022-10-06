@@ -12,7 +12,7 @@ I'm a computer science Ph.D. student working on problems in **computer networkin
 
 ## Education
 
-**Ph.D. in Computer Sciense** ([Georgia Institute of Technology](https://gatech.edu), anticipated May 2027)
+**Ph.D. in Computer Science** ([Georgia Institute of Technology](https://gatech.edu), anticipated May 2027)
 
 **B.S. in Computer Science; Minor in Business** ([Brigham Young University](https://byu.edu), Dec 2020)
 
