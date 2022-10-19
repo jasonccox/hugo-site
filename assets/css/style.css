@@ -347,4 +347,37 @@ footer {
 
 /* }}} END BOOKS */
 
+/* RESEARCH {{{ */
+
+.research-project-list {
+  list-style: none;
+  padding: 0;
+}
+
+.research-project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.research-project-desc {
+  max-width: 100%;
+  flex-basis: 65%;
+  flex-grow: 1;
+  flex-shrink: 0;
+  order: 1;
+}
+
+.research-project-img {
+  min-width: 10rem;
+  max-width: 15rem;
+  flex-basis: 10rem;
+  flex-grow: 1;
+  order: 0;
+  margin: 1rem;
+}
+
+/* }}} END RESEARCH */
+
 /* vim: set fdm=marker: */

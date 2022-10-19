@@ -21,8 +21,8 @@
           {{ $end_date = dateFormat "Jan 2006" .Params.project_end_date }}
         {{ end }}
 
-        <li>
-          <p>
+        <li class="research-project">
+          <p class="research-project-desc">
             {{ if not (eq .Content .Summary) }}
               <a href="{{ .RelPermalink }}">{{ .Title }}</a>
             {{ else }}
@@ -31,6 +31,13 @@
             ({{ $start_date }} - {{ $end_date }}):
             <span>{{ .Summary | replaceRE "</?p>" "" | safeHTML }}</span>
           </p>
+          {{ if .Params.image }}
+          <img
+            class="research-project-img"
+            src="{{.Params.image}}"
+            alt="{{.Params.image_alt}}"
+          />
+          {{ end }}
         </li>
       {{ end }}
     </ul>
