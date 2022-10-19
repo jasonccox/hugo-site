@@ -1,5 +1,23 @@
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
+
+  <div id="research-info">
+    <img
+      alt=""
+      id="research-info-img"
+      src="/images/headshot-square.png"
+    >
+    <div id="research-info-txt">
+      <p>
+        <strong>Jason Cox</strong><br>
+        Ph.D. Student<br>
+        School of Computer Science<br>
+        Georgia Institute of Technology
+      </p>
+      <p><a href="mailto:jcox99@gatech.edu">jcox99@gatech.edu</a></p>
+    </div>
+  </div>
+
   {{ .Content }}
 
   {{ $current_projects := where .Pages "Params.project_end_date" "==" nil }}
