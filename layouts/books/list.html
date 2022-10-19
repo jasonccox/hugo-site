@@ -27,3 +27,27 @@
     {{ end }}
   </ul>
 {{ end }}
+
+{{ define "page-styles" }}
+  <style>
+    .book-list li {
+      padding-inline-start: 0.5rem;
+    }
+
+    .book-great {
+      list-style-type: "🙌";
+    }
+
+    .book-good {
+      list-style-type: "👍";
+    }
+
+    .book-okay {
+      list-style-type: "🤷";
+    }
+
+    .book-bad {
+      list-style-type: "👎";
+    }
+  </style>
+{{ end }}

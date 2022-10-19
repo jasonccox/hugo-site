@@ -7,22 +7,3 @@ I'm a computer science Ph.D. student at [Georgia Tech](https://gatech.edu), wher
 My primary interests are **computer networking** and **computing for social good**. Currently, I'm focusing on finding ways to measure and improve Internet access for underserved groups. Check out my projects below to learn more.
 
 If you'd like to collaborate or just learn more about my work, [send me an email](mailto:jcox99@gatech.edu)!
-
-<style>
-    #research-info {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-
-    #research-info > * {
-        margin: 0.5rem;
-    }
-
-    #research-info-img {
-        border-radius: 0.25rem;
-        height: 10rem;
-        width: 10rem;
-    }
-</style>

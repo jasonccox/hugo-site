@@ -61,3 +61,53 @@
     </ul>
   {{ end }}
 {{ end }}
+
+{{ define "page-styles" }}
+  <style>
+    #research-info {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    #research-info > * {
+      margin: 0.5rem;
+    }
+
+    #research-info-img {
+      border-radius: 0.25rem;
+      height: 10rem;
+      width: 10rem;
+    }
+
+    .research-project-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .research-project {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .research-project-desc {
+      max-width: 100%;
+      flex-basis: 65%;
+      flex-grow: 1;
+      flex-shrink: 0;
+      order: 1;
+    }
+
+    .research-project-img {
+      min-width: 10rem;
+      max-width: 15rem;
+      flex-basis: 10rem;
+      flex-grow: 1;
+      order: 0;
+      margin: 1rem;
+    }
+  </style>
+{{ end }}

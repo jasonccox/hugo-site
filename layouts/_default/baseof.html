@@ -28,6 +28,7 @@
       <link rel="stylesheet" href="{{ $highlight_style.Permalink }}" />
     {{ end }}
 
+    {{ block "page-styles" . }}{{ end }}
     {{ range .AlternativeOutputFormats -}}
       <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .RelPermalink | safeURL }}">
     {{ end -}}
