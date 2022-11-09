@@ -1,6 +1,7 @@
 ---
 title: How I Got Blocked by the ACM
 date: 2022-11-07
+lastmod: 2022-11-08
 summary: The amusing story of how trying to be clever got me blocked from accessing all ACM pubications.
 ---
 
@@ -17,3 +18,5 @@ I ran the script and... now I'm blocked from accessing any publications on the A
 ![screenshot of the ACM website showing that my IP address is blocked with a support email listed for help](/images/banned-by-acm.png)
 
 Let's hope they actually check that support email! If not, I'll be stuck using a VPN to read papers for school.
+
+Update: I got an email back telling me that the block was an automatic response to "an action that could be the work of an automated program" and that the block should go away on its own after a few hours. 28 hours later, I seem to finally have access again!
