@@ -82,10 +82,10 @@ I'm a computer science Ph.D. student working on problems in **computer networkin
 
 ## Personal Projects
 
-[**git-personal**](https://github.com/jasonccox/git-personal): Docker image for a single-user Git server with support for mirroring to other Git servers
+[**git-personal**](/creations/git-personal): Docker image for a single-user Git server with support for mirroring to other Git servers
 
 [**Home Server**](/creations/home-server): Self-hosted cloud services using Docker and ZFS on Debian Linux
 
-[**Webfolio**](https://github.com/jasonccox/grav-theme-webfolio): Theme for [Grav CMS](https://getgrav.org) built with HTML, CSS, JavaScript, Sass, and Twig
+[**Webfolio**](/creations/webfolio): Theme for [Grav CMS](https://getgrav.org) built with HTML, CSS, JavaScript, Sass, and Twig
 
-[**jsonbody**](https://github.com/jasonccox/jsonbody): Golang middleware for receiving, validating, and sending JSON
+[**jsonbody**](/creations/jsonbody): Golang middleware for receiving, validating, and sending JSON

@@ -1,0 +1,84 @@
+{{ define "main" }}
+  <h1 class="code-title">{{ .Title }}</h1>
+
+  <ul class="code-links">
+    {{ with .Params.code.git }}
+      <li><a href="{{ . }}">git repo</a></li>
+    {{ end }}
+    {{ with .Params.code.contributing.mailing_list }}
+      <li><a href="{{ . }}">mailing list</a></li>
+    {{ end }}
+  </ul>
+
+  {{ .Content }}
+
+  {{ if .Params.code }}<hr />{{ end }}
+
+  {{ with .Params.code.git }}
+    <p>
+    <strong>Source code and documentation</strong> are available in the
+      <a href="{{ . }}">Git repository</a>.
+    </p>
+  {{ end }}
+
+  {{ with .Params.code.contributing }}
+    <p>
+      <strong>Contributions are welcome!</strong>
+      {{ if .email }}
+        {{ $href := .mailing_list }}
+        {{ if not $href }}
+          {{ $href = printf "mailto:%s" .email }}
+        {{ end }}
+        You can send questions, bug reports, patches, etc. by email to
+        <a href="{{ $href }}">{{ .email }}</a>.
+      {{ end }}
+      {{ if .github }}
+        Alternatively, you can contribute on <a href="{{ .github }}">GitHub</a>.
+      {{ end }}
+    </p>
+
+    {{ if .email }}
+      <aside>
+        Don't know how to contribute via email? Check out the interactive tutorial at
+        <a href="https://git-send-email.io/">git-send-email.io</a>, or
+        <a href="mailto:hi@jasoncarloscox.com"/>email me</a> for help.
+      </aside>
+    {{ end }}
+  {{ end }}
+
+  {{ partial "last-updated.html" . }}
+{{ end }}
+
+
+{{ define "page-styles" }}
+  <style>
+    .code-title {
+      margin-bottom: 0.5rem;
+    }
+
+    .code-links {
+      text-align: center;
+      list-style: none;
+      padding: 0;
+      margin-top: 0.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .code-links li {
+      display: inline-block;
+      padding: 0;
+    }
+
+    .code-links li a {
+      margin-inline: 0.5rem;
+    }
+
+    .code-links li::after {
+      content: "·";
+    }
+
+    .code-links li:last-of-type::after {
+      content: unset;
+    }
+  </style>
+{{ end }}

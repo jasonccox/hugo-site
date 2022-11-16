@@ -5,7 +5,7 @@ lastmod: 2021-03-06
 summary: For the last year and a half I ran my personal website using Grav CMS with my own Webfolio theme. However, it’s now a super simple static site built with Hugo. In this post, I explain why I decided to make that switch.
 ---
 
-For the last year and a half I ran my personal website using [Grav CMS](https://getgrav.org) with my own [Webfolio](https://github.com/jasonccox/grav-theme-webfolio) theme. However, it's now a super simple static site built with [Hugo](https://gohugo.io). In this post, I'll explain why I decided to make that switch.
+For the last year and a half I ran my personal website using [Grav CMS](https://getgrav.org) with my own [Webfolio](/creations/webfolio) theme. However, it's now a super simple static site built with [Hugo](https://gohugo.io). In this post, I'll explain why I decided to make that switch.
 
 Until recently, I was hosting my site for free through my university. As graduation approached, I knew I'd need to move to a different hosting provider. At the same time, I began thinking about expanding my site's purpose. Originally I designed the site as an online portfolio, but I was sick of that; the whole thing felt a bit fake, like a bad advertisement. I wanted to create a website to share my creations, thoughts, and interests, including the ones that are unrelated to my career as a software engineer.
 
