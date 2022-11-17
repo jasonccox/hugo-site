@@ -47,7 +47,7 @@
               <strong>{{ .Title }}</strong>
             {{ end }}
             ({{ $start_date }} - {{ $end_date }}):
-            <span>{{ .Summary | replaceRE "</?p>" "" | safeHTML }}</span>
+            <span>{{ .Render "summary" }}</span>
           </p>
         </li>
       {{ end }}

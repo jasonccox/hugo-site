@@ -1,0 +1,6 @@
+<!-- render summary as html with paragraphs and links stripped -->
+{{ .Summary | replaceRE "</?(p|a( [^>]*)?)>" "" | safeHTML }}
+
+{{ if and (not (eq .Content .Summary)) (not .Params.summary) }}
+  <span>[...]</span>
+{{ end }}

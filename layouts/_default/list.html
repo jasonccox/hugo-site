@@ -11,7 +11,7 @@
             {{ $link = .Params.redirect }}
           {{ end }}
           <a href="{{ $link  }}">{{ .Title }}</a>:
-          <span>{{ .Summary | replaceRE "</?p>" "" | safeHTML }}</span>
+          <span>{{ .Render "summary" }}</span>
         </p>
       </li>
     {{ end }}

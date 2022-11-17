@@ -18,10 +18,7 @@
             by {{ .Params.book_author }}
           </a>
           ({{ $date }}{{ $completion }}):
-          <span>{{ .Summary | replaceRE "</?p>" "" | safeHTML }}</span>
-          {{ if not (eq .Content .Summary) }}
-            <span>[...]</span>
-          {{ end }}
+          <span>{{ .Render "summary" }}</span>
         </p>
       </li>
     {{ end }}
