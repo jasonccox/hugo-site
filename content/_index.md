@@ -6,6 +6,8 @@ title: Home
 
 I'm a computer science Ph.D. student, software engineer, keyboard nerd, aspiring small business owner, and open source enthusiast. Welcome to my personal website!
 
+<!--more-->
+
 ## Site Overview
 
 Here's the general layout of the site:

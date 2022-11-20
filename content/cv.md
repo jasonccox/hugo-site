@@ -8,6 +8,8 @@ aliases:
 
 I'm a computer science Ph.D. student working on problems in **computer networking** and **computing for social good**. I have several years of software engineering experience, and I'm known for my ability to learn quickly, work independently, and get the details right. If you'd like to work with me, [get in touch](mailto:hi@jasoncarloscox.com).
 
+<!--more-->
+
 ---
 
 ## Education

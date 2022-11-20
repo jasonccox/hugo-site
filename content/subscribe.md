@@ -6,6 +6,8 @@ no_rss: true
 
 You can subscribe using RSS or email, as described below.
 
+<!--more-->
+
 ## RSS
 
 My site provides an [RSS feed](/index.xml) to which you can subscribe in your RSS reader of choice. If you aren't familiar with RSS, check out the [Wikipedia page](https://en.wikipedia.org/wiki/RSS). Wikipedia also has a large [list of RSS reader applications](https://en.wikipedia.org/wiki/Comparison_of_feed_aggregators) (although it's missing my personal favorite, [newsboat](https://newsboat.org/)).
