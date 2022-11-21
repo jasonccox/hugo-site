@@ -1,0 +1,30 @@
+#!/bin/sh
+
+set -e
+
+commit="$1"
+dir="$2"
+
+if [ -z "$SRHT_TOKEN" ]; then
+    echo "Missing sr.ht token"
+    exit 1
+fi
+
+if [ -z "$SITE" ]; then
+    echo "Missing site"
+    exit 1
+fi
+
+cd "$dir"
+hugo
+
+archive="site.$commit.tar.gz"
+tar --directory public -cz . >"$archive"
+curl \
+    --fail-with-body \
+    --no-progress-meter \
+    --oauth2-bearer "$SRHT_TOKEN" \
+    --form content="@$archive" \
+    "https://pages.sr.ht/publish/$SITE"
+
+echo "$SITE updated to commit $commit"
